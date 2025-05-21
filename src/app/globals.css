@@ -17,7 +17,8 @@ body {
     --popover: 0 0% 100%;
     --popover-foreground: 222 47% 11%;
 
-    --primary: 122 39% 49%; /* #4CAF50 Green */
+    /* Changed from green to bright red */
+    --primary: 0 99% 58%; /* #FE2A2A Bright Red */
     --primary-foreground: 0 0% 100%; /* White */
 
     --secondary: 0 0% 93%; /* Lighter soft grey for secondary elements */
@@ -34,19 +35,19 @@ body {
 
     --border: 0 0% 89.8%; /* Light grey border */
     --input: 0 0% 95%;   /* Slightly off-white input background for contrast */
-    --ring: 122 39% 49%; /* Green for focus rings */
+    --ring: 0 99% 58%; /* Changed ring color to red too */
 
     --radius: 0.5rem;
     
     /* Sidebar specific theme variables */
     --sidebar-background: 0 0% 100%; /* White sidebar */
     --sidebar-foreground: 222 47% 11%; /* Dark text */
-    --sidebar-primary: 122 39% 49%; /* Green for active/hover items */
+    --sidebar-primary: 0 99% 58%; /* Red for active/hover items */
     --sidebar-primary-foreground: 0 0% 100%;
     --sidebar-accent: 0 0% 95%; /* Light grey for hover items */
     --sidebar-accent-foreground: 222 47% 11%;
     --sidebar-border: 0 0% 90%;
-    --sidebar-ring: 122 39% 49%;
+    --sidebar-ring: 0 99% 58%;
   }
 
   .dark {
@@ -56,11 +57,9 @@ body {
     --card: 222 40% 15%;
     --card-foreground: 0 0% 98%;
 
-    --popover: 222 40% 15%;
-    --popover-foreground: 0 0% 98%;
-
-    --primary: 122 39% 55%; /* Lighter Green for dark mode */
-    --primary-foreground: 222 47% 11%; /* Dark text on lighter green */
+    /* Changed from lighter green to lighter red */
+    --primary: 0 99% 65%; /* Slightly lighter red for dark mode */
+    --primary-foreground: 222 47% 11%; /* Dark text on lighter red */
 
     --secondary: 222 30% 20%; /* Darker grey */
     --secondary-foreground: 0 0% 98%;
@@ -76,16 +75,16 @@ body {
 
     --border: 0 0% 20%;
     --input: 0 0% 18%;
-    --ring: 122 39% 55%;
-    
+    --ring: 0 99% 65%; /* Dark mode ring color in red */
+
     --sidebar-background: 222 40% 13%; /* Dark sidebar */
     --sidebar-foreground: 0 0% 98%; /* Light text */
-    --sidebar-primary: 122 39% 55%;
+    --sidebar-primary: 0 99% 65%;
     --sidebar-primary-foreground: 222 47% 11%;
     --sidebar-accent: 222 30% 20%;
     --sidebar-accent-foreground: 0 0% 98%;
     --sidebar-border: 0 0% 20%;
-    --sidebar-ring: 122 39% 55%;
+    --sidebar-ring: 0 99% 65%;
   }
 }
 
