@@ -23,5 +23,5 @@ To get started with the project, explore the following key files:
 ## Style Guidelines (from `docs/blueprint.md`)
 *(Assuming `docs/blueprint.md` contains style guidelines, they would be included here. As the content of `docs/blueprint.md` is not provided, this section is a placeholder.)*
 Follow the style guidelines outlined in `docs/blueprint.md` for consistent code formatting, naming conventions, and other relevant standards.
-## Contributing
-*(Add information on how to contribute to the project if applicable.)*
+
+
